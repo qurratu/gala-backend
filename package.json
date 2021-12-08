@@ -1,11 +1,11 @@
 {
-  "name": "users",
+  "name": "activity-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backed of agaa\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dn\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B\u001b[C\u001b[C\u001b[C gala",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@withvoid/make-validation": "^1.0.5",
@@ -22,7 +22,19 @@
     "serve-index": "^1.9.1",
     "socket.io": "^4.4.0"
   },
+  "engines": {
+    "node": "16.13.1"
+  },
   "keywords": [],
-  "author": "Laxman Rai",
-  "license": "ISC"
+  "author": "GALA",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laxman7488/activity-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laxman7488/activity-tracker/issues"
+  },
+  "homepage": "https://github.com/laxman7488/activity-tracker#readme"
 }
