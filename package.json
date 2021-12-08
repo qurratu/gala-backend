@@ -1,5 +1,5 @@
 {
-  "name": "activity-tracker",
+  "name": "gala-backend",
   "version": "1.0.0",
   "description": "Backed of agaa\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dn\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B\u001b[C\u001b[C\u001b[C gala",
   "main": "index.js",
@@ -31,10 +31,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laxman7488/activity-tracker.git"
+    "url": "https://github.com/qurratu/gala-backend.git"
   },
   "bugs": {
-    "url": "https://github.com/laxman7488/activity-tracker/issues"
+    "url": "https://github.com/qurratu/gala-backend.git/issues"
   },
-  "homepage": "https://github.com/laxman7488/activity-tracker#readme"
+  "homepage": "https://github.com/qurratu/gala-backend.git#readme"
 }
