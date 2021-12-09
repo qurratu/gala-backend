@@ -30,7 +30,7 @@ class App{
         console.log(err)
         logger.error(`Error while starting db ${err}`);
     });
-
+       
     }
 
     connectToDB() {
@@ -42,7 +42,7 @@ class App{
 
         // Set Process
         let envFilePath = path.join(basename, './config/production.env');
-
+        
         //Set logger
         var log4js = require('log4js');
         log4js.configure(path.join(basename,'./config/log4js.json'));
@@ -97,12 +97,12 @@ process.once('SIGTERM', () => {
     logger.info('Received SIGTERM');
     application.shutdown();
   });
-
+  
 process.once('SIGINT', () => {
     logger.info('Received SIGINT');
     application.shutdown();
   });
-
+  
 process.once('uncaughtException', err => {
     logger.info('Uncaught exception');
     console.error(err);
