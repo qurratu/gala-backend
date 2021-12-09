@@ -9,7 +9,7 @@ routes.route('/ckeditor-gallery-upload').post(multipartMiddleware,function(req,r
     let file = req.files;
     let keys = Object.keys(file);
     let data=keys.map((key)=>{
-        return {url:`//${process.env.HOST || 'localhost'}:${getPort()}/images/${getFileName(file[key].path)}`}
+        return {url:`//${process.env.HOST || 'localhost'}/images/${getFileName(file[key].path)}`}
     });
     data = (data.length>1)?data:data[0];
     res.status(200).send({success:true,data:data});
