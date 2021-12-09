@@ -11,6 +11,9 @@ const serveIndex = require("serve-index")
 
 const websocket=require('./utils/websocket')
 
+// var corsOptions = {
+//   origin: "http://localhost:3000"
+// };
 var corsOptions = {
   origin: "https://gala-staging.herokuapp.com"
 };
